@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Author</title>
+    <link rel="stylesheet" href="/css/index-page.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div id="headBar" class="headBar" >
+            <img id="logoImg" src="/assests/icons/The_Author_logo-removebg-preview.png" 
+                alt="Ther author logo"
+                style="width: 150px; height: 70px; object-fit: contain;">
+
+            <h1>The Author</h1>
+            
+            <div id="headList" class="headList">
+                <nav id="nav-menu">
+                    <ul>
+                        <li><a class="nav-link" href="#home-page">Home</a></li>
+                        <li><a class="nav-link" href="#about-page">About</a></li>
+                        <li><a class="nav-link" href="#contact">Contact</a></li>   
+                    </ul>                    
+                </nav>
+            </div>
+        </div>
+    </header>
+
+<!-- =============== Home =============== -->
+    <main>
+        <section class="home-page">
+            <!-- <div id="boxConatiner">
+                <div id="boxAdd1">ඔබත් ඔබගේ ලස්සන කතාව අපි හරහා ලෝකෙටම කියන්න කැමතිද? 
+                    <br/>
+                    <br/>
+                    එහෙනම් ඔබේ ලස්සන කතාව දැන්ම අප වෙත එවන්න...</div>
+                <div id="boxAdd2">ඔබගේ ව්‍යාපාරය අප හරහා ලෝකෙටම දැනුවත් කරන්න කැමතිද ? 
+                    <br/>
+                    <br/>
+                    ඔබේ ව්‍යාපාරයේ විස්තර අප වෙත ඉක්මනින් ලබ දෙන්න...</div>
+            </div> -->
+
+            <div class="photos">
+                <div class="photo-frame">
+                    <div class="photo" style="background-image: url('/assests/images/vecteezy_books-festival-cartoon-banner-bestsellers_14484610.jpg');"></div>
+                    <div class="photo" style="background-image: url('/assests/images/934_generated.jpg');"></div>
+                    <div class="photo" style="background-image: url('/assests/images/875_generated.jpg');"></div>
+                    <div class="photo" style="background-image: url('/assests/images/873_generated.jpg');"></div>
+                </div>
+                <script>
+                    let photos = document.querySelectorAll('.photo');
+                    let index = 0;
+            
+                    function changePhoto() {
+                        photos.forEach(photo => photo.classList.remove('active'));
+                        photos[index].classList.add('active');
+                        index = (index + 1) % photos.length;
+                    }
+            
+                    setInterval(changePhoto, 3000);
+                    changePhoto();
+                </script>
+            </div>
+        </section>
+
+<!-- =============== About ============== -->
+        
+        <section class="about-page">
+            <h2>
+                Love Story
+            </h2>
+
+            <div class="card-container">
+                <a href="/Pages/love-story/nuba-awidin/nuba-awidin.html" target="_blank">
+                    <div class="cards">
+                        <div class="story-wallpaper">
+                            <img src="/assests/images/Untitled Project(18).jpg" alt="">
+                        </div>
+                        <p class="story-name">
+                            <b>නුඹ ඇවිදින්</b>
+                            <br/>~මගෙ හද මඩලට එළිය අරන්~<br/>
+                            ~හීන්සැරේ නුඹ ඇවිදින්...~
+                        </p>
+                    </div>
+                </a>
+                
+                <a href="">
+                    <div class="cards">
+                        <div class="story-wallpaper">
+                            <img src="/assests/images/WhatsApp Image 2025-02-08 at 14.07.41_6edc17cb.jpg" alt="">
+                        </div>
+                        <p class="story-name">
+                            නුඹ ඇවිදින්~
+                            <br/>මගෙ හද මඩලට එළිය අරන්~<br/>
+                            ~හීන්සැරේ නුඹ ඇවිදින්...~
+                        </p>
+                    </div>
+                </a>
+
+                <a href="">
+                    <div class="cards">
+                        <div class="story-wallpaper">
+                            <img src="/assests/images/WhatsApp Image 2025-02-08 at 14.07.41_6edc17cb.jpg" alt="">
+                        </div>
+                        <p class="story-name">
+                            නුඹ ඇවිදින්~
+                            <br/>මගෙ හද මඩලට එළිය අරන්~<br/>
+                            ~හීන්සැරේ නුඹ ඇවිදින්...~
+                        </p>
+                    </div>
+                </a>
+
+                <a href="">
+                    <div class="cards">
+                        <div class="story-wallpaper">
+                            <img src="/assests/images/WhatsApp Image 2025-02-08 at 14.07.41_6edc17cb.jpg" alt="">
+                        </div>
+                        <p class="story-name">
+                            නුඹ ඇවිදින්~
+                            <br/>මගෙ හද මඩලට එළිය අරන්~<br/>
+                            ~හීන්සැරේ නුඹ ඇවිදින්...~
+                        </p>
+                    </div>
+                </a>
+
+                <a href="">
+                    <div class="cards">
+                        <div class="story-wallpaper">
+                            <img src="/assests/images/WhatsApp Image 2025-02-08 at 14.07.41_6edc17cb.jpg" alt="">
+                        </div>
+                        <p class="story-name">
+                            නුඹ ඇවිදින්~
+                            <br/>මගෙ හද මඩලට එළිය අරන්~<br/>
+                            ~හීන්සැරේ නුඹ ඇවිදින්...~
+                        </p>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="cards">
+                        <div class="story-wallpaper">
+                            <img src="/assests/images/WhatsApp Image 2025-02-08 at 14.07.41_6edc17cb.jpg" alt="">
+                        </div>
+                        <p class="story-name">
+                            නුඹ ඇවිදින්~
+                            <br/>මගෙ හද මඩලට එළිය අරන්~<br/>
+                            ~හීන්සැරේ නුඹ ඇවිදින්...~
+                        </p>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="cards">
+                        <div class="story-wallpaper">
+                            <img src="/assests/images/WhatsApp Image 2025-02-08 at 14.07.41_6edc17cb.jpg" alt="">
+                        </div>
+                        <p class="story-name">
+                            නුඹ ඇවිදින්~
+                            <br/>මගෙ හද මඩලට එළිය අරන්~<br/>
+                            ~හීන්සැරේ නුඹ ඇවිදින්...~
+                        </p>
+                    </div>
+                </a>
+            </div>
+        </section>
+<!-- =========== footer =============== -->
+ <section class="contact">
+    <br>
+    <h2>Contact</h2>
+    <div class="boxFooter">
+        <div class="Form">
+            <form action="/submit-form">
+                <div id="name">
+                    <label for="name">Name : </label>
+                    <input type="text" class="b1" placeholder="enter your name">
+                </div>
+                <div id="email">
+                    <label for="email">Your email :</label>
+                    <input type="email" class="b1" placeholder="enter your email">
+                </div>
+                <div id="subject">
+                    <label for="subject">Write subject :</label>
+                    <input type="text" class="b1" placeholder="write your subject">
+                </div>
+                <div id="massege">
+                    <label for="massege">Your massage :</label>
+                    <textarea name="textarea" class="textarea" placeholder="input your massage" rows="4" cols="38"></textarea>
+                </div>
+            </form>
+        </div>
+    </div>
+ </section>
+</main>
+    <footer>
+        &copy; 2025. All rights reserved.
+    </footer>
+</body>
+</html>
